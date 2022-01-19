@@ -34,3 +34,17 @@ valor = float(input())
 valor += 1.8
 print("valor é: " + str(valor))
 
+
+valor = float(input("Digite um número"))
+
+print(type(valor))
+
+
+numero_secreto = 42
+chute = input("Digite seu número")
+print("Você digitou ", chute)
+if(numero_secreto == chute):
+  print("Você acertou")
+else:
+  print("Você errou")
+
