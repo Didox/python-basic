@@ -4,10 +4,10 @@ def jogar():
     print('*****************************************')
 
     palavra_secreta = "banana"
-    enforcou = false
-    acertou = false
+    enforcou = False
+    acertou = False
 
-    while(Not enforcou and Not acertou):
+    while(not enforcou and not acertou):
         print("jogando...")
 
     print("Fim do jogo")
