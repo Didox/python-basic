@@ -12,3 +12,8 @@ def teste3(variavel, v2):
   return "retorno - " + variavel + " - " + v2
 
 print(teste3("Danilo", "v2"))
+
+
+import funcao
+
+print(funcao.teste4("ummm ====="))
