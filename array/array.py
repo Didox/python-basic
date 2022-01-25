@@ -17,3 +17,12 @@ except:
 
 
 print([2, 51, 6, 8, 3].__contains__(8))
+
+
+valores = [ 0, 0, 0, 1, 2, 3, 4]
+print(valores.count(0)) # quantidade de zeros
+print(len(valores)) # quantidade do array
+
+list.append(10)
+list.pop()
+
