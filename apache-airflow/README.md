@@ -30,11 +30,17 @@ airflow scheduler # estarta scheduler
 # shown on the terminal to login.
 # Enable the example_bash_operator dag in the home page
 
+
+<!-- acessar sem usuário e senha -->
+<!-- https://stackoverflow.com/questions/57680082/how-do-i-disable-airflow-login-for-authentication-and-authorization -->
+
 airflow users  create --role Admin --username danilo --email danilo@teste.com --firstname Danilo --lastname Aparecido --password danilo
 
 user:danilo 
 password: danilo
 
+
+airflow users  create --role Admin --username danilo2 --email danilo2@teste.com --firstname Danilo2 --lastname Aparecido --password danilo2
 
 
 
@@ -57,6 +63,11 @@ airflow initdb
 # E para iniciar o serviço Webserver, responsável pela interface da ferramenta, digitaremos:
 
 airflow webserver
+
+# ou
+
+airflow standalone
+
 # Acessaremos a interface do Airflow no navegador usando o link: http://localhost:8080.
 
 # E para iniciarmos o serviço Scheduler, responsável pelo agendamento de tarefas para execução, digitaremos:

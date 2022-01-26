@@ -1,0 +1,24 @@
+[2022-01-26 08:52:22,190] {processor.py:163} INFO - Started process (PID=30779) to work on /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-26 08:52:22,190] {processor.py:642} INFO - Processing file /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-26 08:52:22,190] {logging_mixin.py:109} INFO - [2022-01-26 08:52:22,190] {dagbag.py:500} INFO - Filling up the DagBag from /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-26 08:52:22,207] {logging_mixin.py:109} INFO - [2022-01-26 08:52:22,207] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-26 08:52:22,228] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-26 08:52:22,242] {logging_mixin.py:109} INFO - [2022-01-26 08:52:22,242] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-26 08:52:22,249] {logging_mixin.py:109} INFO - [2022-01-26 08:52:22,249] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-26 08:52:22,254] {processor.py:171} INFO - Processing /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.065 seconds
+[2022-01-26 08:56:31,365] {processor.py:163} INFO - Started process (PID=31055) to work on /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-26 08:56:31,366] {processor.py:642} INFO - Processing file /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-26 08:56:31,367] {logging_mixin.py:109} INFO - [2022-01-26 08:56:31,367] {dagbag.py:500} INFO - Filling up the DagBag from /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-26 08:56:31,381] {logging_mixin.py:109} INFO - [2022-01-26 08:56:31,381] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-26 08:56:31,402] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-26 08:56:31,416] {logging_mixin.py:109} INFO - [2022-01-26 08:56:31,416] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-26 08:56:31,424] {logging_mixin.py:109} INFO - [2022-01-26 08:56:31,424] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-26 08:56:31,430] {processor.py:171} INFO - Processing /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.066 seconds
+[2022-01-26 08:58:14,924] {processor.py:163} INFO - Started process (PID=31150) to work on /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-26 08:58:14,926] {processor.py:642} INFO - Processing file /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-26 08:58:14,928] {logging_mixin.py:109} INFO - [2022-01-26 08:58:14,928] {dagbag.py:500} INFO - Filling up the DagBag from /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-26 08:58:15,071] {logging_mixin.py:109} INFO - [2022-01-26 08:58:15,071] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-26 08:58:15,286] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-26 08:58:15,392] {logging_mixin.py:109} INFO - [2022-01-26 08:58:15,391] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-26 08:58:15,458] {logging_mixin.py:109} INFO - [2022-01-26 08:58:15,457] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-26 08:58:15,511] {processor.py:171} INFO - Processing /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.596 seconds

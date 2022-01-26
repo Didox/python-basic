@@ -1,0 +1,12 @@
+[2022-01-26 08:52:32,985] {processor.py:163} INFO - Started process (PID=30788) to work on /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2022-01-26 08:52:32,985] {processor.py:642} INFO - Processing file /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2022-01-26 08:52:32,986] {logging_mixin.py:109} INFO - [2022-01-26 08:52:32,985] {dagbag.py:500} INFO - Filling up the DagBag from /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2022-01-26 08:52:32,999] {logging_mixin.py:109} INFO - [2022-01-26 08:52:32,999] {example_kubernetes_executor.py:38} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2022-01-26 08:52:33,018] {processor.py:656} WARNING - No viable dags retrieved from /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2022-01-26 08:52:33,019] {processor.py:171} INFO - Processing /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.035 seconds
+[2022-01-26 08:56:41,644] {processor.py:163} INFO - Started process (PID=31068) to work on /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2022-01-26 08:56:41,646] {processor.py:642} INFO - Processing file /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2022-01-26 08:56:41,646] {logging_mixin.py:109} INFO - [2022-01-26 08:56:41,646] {dagbag.py:500} INFO - Filling up the DagBag from /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2022-01-26 08:56:41,663] {logging_mixin.py:109} INFO - [2022-01-26 08:56:41,663] {example_kubernetes_executor.py:38} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2022-01-26 08:56:41,682] {processor.py:656} WARNING - No viable dags retrieved from /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2022-01-26 08:56:41,684] {processor.py:171} INFO - Processing /usr/local/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.040 seconds
