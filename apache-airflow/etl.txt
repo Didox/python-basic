@@ -1,0 +1,5 @@
+E = Extract
+T = Transformation
+L = Load
+
+(extração, transformação, carregamento)
