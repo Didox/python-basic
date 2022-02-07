@@ -15,10 +15,3 @@ print(generator_object)
 for i in generator_object:
     print(i)
 
-
-CREATE TABLE pedidos (
-    id string,
-    nome varchar(100),
-    conteudo varchar,
-    data_criacao DateTime
-);
